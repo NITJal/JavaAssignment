@@ -1,0 +1,15 @@
+Q. Write a java program to simulate traffic signal using mutithreading concepts. 
+The light sequence is:
+Green: safe to cross. [1 minutes]
+Yellow or orange: continue to cross only if unable to stop safely. [50 sec]
+Flashing yellow or orange: cross with caution (often used when lights are out of order or shut down). [40 sec]
+Red: do not cross.[1 minutes]
+
+[Hint: Use Synchronization and create a new thread corresponding to each signal]
+
+Q. Bob want to withdraw 20000 rupees from his account. Currently account contains 5000 rupees. 
+So he called Alice to deposit 15000 in his account.
+Whenever a withdraw request is made, the system must check whether balance is sufficient or not. 
+If balance is sufficient then the system will deduce the amount from original balance otherwise it will wait for deposit.
+Create two threads deposit and withdraw to solve this problem. After each transaction show the balance.
+[Hint: Inter-thread communication]
